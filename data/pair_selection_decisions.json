@@ -1,0 +1,12 @@
+{
+  "WTI_BRENT": {
+    "verdict": "cointegrated",
+    "effective_start": "2007-07-30",
+    "rationale": "Passes Engle-Granger, ADF-on-residual, and Johansen at 95% on the full training sample. Rolling-window stability is moderate (~40-50% of 3y windows significant), consistent with known post-2011 WTI-Brent structural widening (US shale / pipeline bottlenecks) rather than a spurious relationship. Proceed as primary pair using full effective history."
+  },
+  "AUD_NZD": {
+    "verdict": "cointegrated_within_regime",
+    "effective_start": "2014-01-01",
+    "rationale": "Fails Engle-Granger/ADF/Johansen on the full ~18y training sample, but passes strongly (EG p<0.001) on the 2014-onward sub-sample. Full-sample failure is attributable to a visible level shift around 2013 (see notebook 00 plot), not absence of a genuine relationship. Recommend later notebooks (02-05) restrict AUD/NZD analysis to 2014-01-01 onward, and treat the dynamic hedge ratio (Kalman) and regime filter (HMM) as necessary, not optional, for this pair specifically."
+  }
+}

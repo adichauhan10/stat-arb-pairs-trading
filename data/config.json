@@ -1,0 +1,15 @@
+{
+  "start": "2000-01-01",
+  "end": "2026-08-14",
+  "holdout_start": "2024-08-15",
+  "fx_tickers": {
+    "AUD": "AUDUSD=X",
+    "NZD": "NZDUSD=X"
+  },
+  "comm_tickers": {
+    "WTI": "CL=F",
+    "BRENT": "BZ=F"
+  },
+  "fx_effective_start": "2006-05-16",
+  "comm_effective_start": "2007-07-30"
+}

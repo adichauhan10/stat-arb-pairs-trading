@@ -1,0 +1,9 @@
+{
+  "z_window": 20,
+  "entry_z": 2.0,
+  "exit_z": 0.5,
+  "stop_z": 4.0,
+  "stop_consec_days": 5,
+  "max_hold": 60,
+  "regime_thresh": 0.5
+}

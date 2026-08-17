@@ -1,0 +1,13 @@
+{
+  "cost_bps_fx": 2.0,
+  "cost_bps_comm": 4.0,
+  "target_vol": 0.1,
+  "vol_window": 60,
+  "max_leverage": 3.0,
+  "kelly_window": 252,
+  "kelly_mult": 0.5,
+  "weight_fx": 0.5,
+  "weight_comm": 0.5,
+  "gross_cap": 2.0,
+  "sizing_method_used": "vol_target"
+}

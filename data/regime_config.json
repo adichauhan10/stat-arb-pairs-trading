@@ -1,0 +1,6 @@
+{
+  "refit_every": 63,
+  "min_train": 252,
+  "n_states": 2,
+  "vol_window": 10
+}
